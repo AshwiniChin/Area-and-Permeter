@@ -1,22 +1,53 @@
 <html>
 
 <head>
-    <title>Details Form</title>
+    <title>Area & Perimeter,Square and Square Roots</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
 
 <body>
+   
+    <h1> Area and Perimeter of Square field,  <br>Square and Square Roots</h1>
+
+
     <br>
-<h1> Area and Perimeter of Square field</h1>
-        <h3>Length of field</h3>
-        <input type="number" id="length">
-        
+    <div id="area&Perimeter">
+        <h2>Area & Perimeter</h2>
+        <span>
+            <label>Enter Length of field</label>
+            <input type="number" id="length">
+        </span>
+
+
         <br>
         <button onclick="display()">Display Area and Perimeter</button>
-        <h4 id="area"></h4>
-        <h4 id="perimeter"></h4>
-   
+        <h3 id="area"></h3>
+        <h3 id="perimeter"></h3>
+    </div>
+    <br>
+    <div id="square&squareRoot">
+        <h2>Square of a number</h2>
+        <label>Enter a number to find Square</label>
+        <input type="number" id="number">
+
+        <br>
+        <button onclick="square()">Find Square</button>
+        <h3 id="square"></h3>
+
+    </div>
+    <br>
+    <div>
+        <h2>Square root of a number</h2>
+        <label>Enter a number to find Square Root</label>
+        <input type="number" id="root">
+
+        <br>
+        <button onclick="squareRoot()">Find Square Root</button>
+        <h3 id="rootDisplay"></h3>
+
+
+    </div>
 </body>
 
 </html>
